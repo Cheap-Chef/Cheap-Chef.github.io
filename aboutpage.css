@@ -1,0 +1,15 @@
+h1 {
+  color: black;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+}
+p {
+  font-size: 20px
+}
+img {
+  border-radius: 50%;
+}
+body {
+  background-color: #cfb997;
+  font-family: 'Maven Pro', sans-serif;
+}
