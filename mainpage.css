@@ -1,3 +1,5 @@
+
+
 body {background-color: white;}
 
 .slide_main {
@@ -20,6 +22,11 @@ body {background-color: white;}
   text-align: center; font-family: 'Righteous', cursive;  font-size: 280%;
 }
 
+.mini_headers {
+  text-align: center; font-family: 'Righteous', cursive;  font-size: 200%;
+}
+
+
 img {
   max-width: 100%;
   height: auto;
@@ -30,6 +37,14 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+}
+
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 /* Style the navigation bar */
@@ -71,5 +86,30 @@ img {
 position: fixed;
 top: 0;
 width: 100%;
-z-index:2;
+z-index:1000;
+}
+
+.column {
+  float: left;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+p {
+  margin-right: 150px;
+  margin-left: 10%;
 }
