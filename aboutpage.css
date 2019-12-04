@@ -18,6 +18,10 @@ body {
   width: 60%;
 }
 
+.sub_headers {
+  text-align: center; font-family: 'Righteous', cursive;  font-size: 280%;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
