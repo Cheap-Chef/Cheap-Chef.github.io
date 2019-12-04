@@ -271,6 +271,7 @@ top: 0;
 width: 100%;
 z-index:2;
 }
+
 @import "http://fonts.googleapis.com/css?family=Ubuntu";
 div#main{
 width:1000px;
@@ -335,4 +336,5 @@ div#fugo{
 float:center
 }
 Copy
+
 
