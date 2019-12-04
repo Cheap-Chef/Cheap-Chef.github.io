@@ -127,7 +127,7 @@ li {
 }
 
 p {
-  color: #231900;
+  color: white;
   font-family: 'Crimson Text';
   font-size: 34px;
   font-weight: 500;
@@ -229,7 +229,7 @@ p {
   width: 50%;
 }
 .row {
-  background-color: #282828;
+  background-color: white;
 }
 .navbar {
   width: 100%;
